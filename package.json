@@ -1,0 +1,33 @@
+{
+  "name": "masterclass_rockeseat",
+  "version": "1.0.0",
+  "description": "Sequelize with MySQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "seguro": "nodemon src/app/api_seguro/seguro.js"
+  },
+  "author": "Matheus Aguiar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.2",
+    "pg-hstore": "^2.3.3",
+    "request": "^2.88.2",
+    "sequelize": "^5.21.5",
+    "sequelize-cli": "^5.5.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2"
+  }
+}
